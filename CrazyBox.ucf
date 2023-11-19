@@ -1,0 +1,34 @@
+
+
+NET "G" LOC = H15;
+NET "Hsync" LOC = F15;
+NET "PlayerUp" LOC = K17;
+NET "R" LOC = H14;
+NET "Start" LOC = L13;
+NET "Vsync" LOC = F14;
+NET "clk" LOC = C9;
+
+
+NET "PlayerDown" PULLDOWN;
+NET "PlayerUp" PULLDOWN;
+NET "Start" PULLUP;
+
+
+NET "B" LOC = G15;
+
+
+NET "PlayerDown" LOC = V4;
+
+
+NET "Hard" LOC = N17;
+
+
+NET "Hard" PULLUP;
+
+
+NET "rst" LOC = D18;
+
+
+# PlanAhead Generated IO constraints 
+
+NET "rst" PULLDOWN;
